@@ -1,0 +1,80 @@
+
+/*Texto*/
+@font-face {
+  font-family: Font;
+  src: url("04B_19__.TTF");
+
+}
+
+
+#fuente{
+  font-family: Font;
+}
+
+
+body{
+  background-color: #0f052d;
+  color: #36868f;
+  text-align: center;
+  padding: 10px;
+  font-family: Font;
+}
+
+svg {
+  width: auto;
+  height: auto;
+}
+image{
+  width: auto;
+  height: auto;
+}
+p{
+  font-size: 40px;
+}
+.banner {
+  width: auto;
+  height: auto;
+  background-image: url("Container.svg");
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+.banner img {
+  padding: 20px;
+  width: auto;
+  height: 40px;
+    user-select: none;
+}
+
+@keyframes animacion-svg {
+  0% { content: url(Icon_Idea1.svg); }
+  20% { content: url(Icon_Idea2.svg); }
+
+}
+
+#animacion {
+  animation: animacion-svg 1s steps(2) infinite;
+  width: 200px; /* ajusta el ancho del SVG al 100% del contenedor */
+height: 200px;
+}
+
+.contenedor {
+  width: auto; /* ajusta el ancho del contenedor */
+  height: auto; /* ajusta el alto del contenedor */
+}
+
+.xD{
+  font-size: 50px;
+  color: #285cc4;
+}
+.enlace-correo {
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.correo{
+  font-size: 24px;
+}
